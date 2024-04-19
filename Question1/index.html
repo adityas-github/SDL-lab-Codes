@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TY Time Table</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .table-bordered th,
+    .table-bordered td {
+      border: 1px solid #dee2e6;
+    }
+    .table-hover tbody tr:hover {
+      background-color: #e9ecef;
+    }
+    .subject {
+      font-weight: bold;
+      color: #007bff;
+    }
+    .faculty {
+      color: #6c757d;
+    }
+    .table thead th {
+      background-color: #343a40;
+      color: #fff;
+      border-color: #454d55;
+    }
+    .table-striped tbody tr:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-4">TY Time Table</h1>
+    <table class="table table-bordered table-hover table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th>Time Slot</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">9:00 AM - 10:00 AM</th>
+          <td>
+            <span class="subject">Mathematics</span><br>
+            <span class="faculty">AB</span>
+          </td>
+          <td>
+            <span class="subject">Physics</span><br>
+            <span class="faculty">CD</span>
+          </td>
+          <td></td>
+          <td>
+            <span class="subject">Computer Science</span><br>
+            <span class="faculty">EF</span>
+          </td>
+          <td>
+            <span class="subject">Chemistry</span><br>
+            <span class="faculty">GH</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">10:00 AM - 11:00 AM</th>
+          <td></td>
+          <td>
+            <span class="subject">English</span><br>
+            <span class="faculty">IJ</span>
+          </td>
+          <td>
+            <span class="subject">Biology</span><br>
+            <span class="faculty">KL</span>
+          </td>
+          <td></td>
+          <td>
+            <span class="subject">Computer Science</span><br>
+            <span class="faculty">EF</span>
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
