@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    align-items: center;
+    text-align: center;
+    
+}
