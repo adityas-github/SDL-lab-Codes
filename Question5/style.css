@@ -1,0 +1,51 @@
+/* style.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+/* Homepage styles */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Product listing page styles */
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+/* Product detail page styles */
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-description {
+  margin-top: 20px;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+img {
+    border-radius: 5px;
+    border: 3px solid white;
+  }
